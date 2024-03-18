@@ -1,0 +1,21 @@
+const formatDate = date => new Date(date).toLocaleDateString();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+class MyClass { constructor() { this.property = getRandomString(); } }
+false - false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+true + 31,50,90,3,57,78,61,86,92,79,69,57,2,75,34,6,26,4,9,28,90,35,77,53,82,86,26,42,52
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+35 - 99
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+banana
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
