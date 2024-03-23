@@ -1,0 +1,17 @@
+apple - 1,44,21,25,4,62,26,18,59,40,94
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+false * 28
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomElement = array => array[getRandomIndex(array)];
+15,56,69,75,94,72,54,30,88,16,35,85,62,60,23,73,88,86,17,74,13,98,94,41,15,57,6,63,66,16,66,0,65,20,6,81,0,95,11,2,64,28,46 - grape
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false / orange
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
